@@ -1,4 +1,17 @@
 body > header {
+	color: #ffffff;
 	background-color: #000000;
 	height: 120px;
+}
+
+body > header h1 {
+	color: #ffffff;
+	margin: 0;
+}
+
+body > header .brand {
+	background-color: #000000;
+	height: 150px;
+	width: 300px;
+	margin: 0 auto;
 }

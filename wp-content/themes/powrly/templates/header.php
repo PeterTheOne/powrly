@@ -1,6 +1,9 @@
 <header class="banner" role="banner">
   <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+    <div class="brand" href="<?= esc_url(home_url('/')); ?>">
+      <h1><?php bloginfo('name'); ?></h1>
+      <span class="tagline"><?php bloginfo ('description'); ?></span>
+    </div>
     <nav role="navigation">
       <?php
       if (has_nav_menu('primary_navigation')) :
