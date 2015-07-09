@@ -7,9 +7,7 @@
       endif;
       ?>
     </nav>
-    <form>
-      <input class="search" type="text" placeholder="search" />
-    </form>
+    <?php get_search_form(); ?>
     <div class="login">
       <a href="">login</a>
     </div>
@@ -19,3 +17,23 @@
     <span class="tagline"><?php bloginfo ('description'); ?></span>
   </div>
 </header>
+
+<div class="slider">
+  „powerly gives you the power to make a change“
+</div>
+
+<button>
+  learn more
+</button>
+
+<div class="metrics">
+  <div class="left"></div>
+  <div class="center"></div>
+  <div class="right"></div>
+</div>
+
+<div class="submetrics">
+  <div class="tags"></div>
+  <div class="pitchidea"></div>
+</div>
+

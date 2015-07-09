@@ -15,7 +15,7 @@ body > header .container {
 	margin: 0 auto;
 }
 
-body > header .search {
+body > header form[role="search"] {
 	position: absolute;
 	top: 10px;
 	right: 70px;
@@ -51,5 +51,52 @@ body > header nav li {
 	}
 }
 
+.metrics {
+	width: 1100px;
+	height: 330px;
+	margin: 0 auto;
 
+	.left {
+		float: left;
+		background-color: rgba(1, 1, 1, 0.5);
+		margin-top: 50px;
+		height: 280px;
+		width: 300px;
+	}
+
+	.center {
+		float: left;
+		background-color: #000000;
+		height: 330px;
+		width: 500px;
+	}
+
+	.right {
+		float: left;
+		background-color: rgba(1, 1, 1, 0.5);
+		margin-top: 50px;
+		height: 280px;
+		width: 300px;
+	}
+}
+
+.submetrics {
+	width: 1100px;
+	height: 110px;
+	margin: 0 auto;
+
+	.tags {
+		float: left;
+		background-color: rgba(1, 1, 1, 0.5);
+		width: 800px;
+		height: 110px;
+	}
+
+	.pitchidea {
+		float: left;
+		background-color: #000000;
+		width: 300px;
+		height: 110px;
+	}
+}
 
